@@ -1,0 +1,47 @@
+body{
+    position:relative;
+    max-width:65%;
+    left:17.5%;
+    background-color:lightgray;
+    height: 5000px;
+}
+
+.home {
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    position: fixed;
+    right: 600px;
+    top: 0px;
+    background-color: red;
+}
+
+.bio {
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    position: fixed;
+    right: 400px;
+    top: 0px;
+    background-color: red;
+}
+
+.portfolio {
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    position: fixed;
+    right: 200px;
+    top: 0px;
+    background-color: red;
+}
+
+.contacto {
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background-color: red;
+}
