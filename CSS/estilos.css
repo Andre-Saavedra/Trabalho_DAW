@@ -8,40 +8,41 @@ body{
 
 .home {
     border: 1px solid black;
-    height: 100px;
-    width: 200px;
+    height: 50px;
+    width: 100px;
     position: fixed;
-    right: 600px;
+    right: 300px;
     top: 0px;
     background-color: red;
 }
 
 .bio {
     border: 1px solid black;
-    height: 100px;
-    width: 200px;
-    position: fixed;
-    right: 400px;
-    top: 0px;
-    background-color: red;
-}
-
-.portfolio {
-    border: 1px solid black;
-    height: 100px;
-    width: 200px;
+    height: 50px;
+    width: 100px;
     position: fixed;
     right: 200px;
     top: 0px;
     background-color: red;
 }
 
+.portfolio {
+    border: 1px solid black;
+    height: 50px;
+    width: 100px;
+    position: fixed;
+    right: 100px;
+    top: 0px;
+    background-color: red;
+}
+
 .contacto {
     border: 1px solid black;
-    height: 100px;
-    width: 200px;
+    height: 50px;
+    width: 100px;
     position: fixed;
     right: 0px;
     top: 0px;
     background-color: red;
 }
+
