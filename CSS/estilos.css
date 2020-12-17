@@ -1,48 +1,44 @@
-body{
-    position:relative;
-    max-width:65%;
-    left:17.5%;
-    background-color:lightgray;
+body {
+    position: relative;
+    max-width: 65%;
+    left: 17.5%;
+    background-color: #242240;
     height: 5000px;
 }
 
 .home {
-    border: 1px solid black;
     height: 50px;
     width: 100px;
     position: fixed;
     right: 300px;
     top: 0px;
-    background-color: red;
+    background-color: #5a54a8;
 }
 
 .bio {
-    border: 1px solid black;
     height: 50px;
     width: 100px;
     position: fixed;
     right: 200px;
     top: 0px;
-    background-color: red;
+    background-color: #5a54a8;
 }
 
 .portfolio {
-    border: 1px solid black;
     height: 50px;
     width: 100px;
     position: fixed;
     right: 100px;
     top: 0px;
-    background-color: red;
+    background-color: #5a54a8;
 }
 
 .contacto {
-    border: 1px solid black;
     height: 50px;
     width: 100px;
     position: fixed;
     right: 0px;
     top: 0px;
-    background-color: red;
+    background-color: #5a54a8;
 }
 
