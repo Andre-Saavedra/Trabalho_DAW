@@ -32,47 +32,15 @@ header{
 .nav_site li a:hover{
     color: #0088a9;
 }
-/*body {
-    position: relative;
-    max-width: 65%;
-    left: 17.5%;
-    background-color: #242240;
-    height: 5000px;
+
+h1, p {
+    text-align: center;
+    color: #dedded;
 }
 
-.home {
-    height: 50px;
-    width: 100px;
-    position: fixed;
-    right: 300px;
-    top: 0px;
-    background-color: #5a54a8;
+.texto{
+    margin-left:25%;
+    margin-right:25%;
+    margin-top:60px;
+    font-size:25px;
 }
-
-.bio {
-    height: 50px;
-    width: 100px;
-    position: fixed;
-    right: 200px;
-    top: 0px;
-    background-color: #5a54a8;
-}
-
-.portfolio {
-    height: 50px;
-    width: 100px;
-    position: fixed;
-    right: 100px;
-    top: 0px;
-    background-color: #5a54a8;
-}
-
-.contacto {
-    height: 50px;
-    width: 100px;
-    position: fixed;
-    right: 0px;
-    top: 0px;
-    background-color: #5a54a8;
-}*/
-
