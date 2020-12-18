@@ -1,7 +1,7 @@
-*{
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     background-color: #242240;
 }
 
@@ -13,11 +13,11 @@ li,a{
     text-decoration:none;
 }
 
-header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:30px 10% 30px 10%;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10% 30px 10%;
 }
 
 .nav_site{
@@ -36,6 +36,10 @@ header{
 h1, p {
     text-align: center;
     color: #dedded;
+}
+
+p{
+    text-align: justify;
 }
 
 .texto{
