@@ -18,6 +18,8 @@ header{
     justify-content:space-between;
     align-items:center;
     padding:30px 10% 30px 10%;
+    width:100%;
+    position:fixed;
 }
 
 .nav_site{
@@ -43,4 +45,17 @@ h1, p {
     margin-right:25%;
     margin-top:60px;
     font-size:25px;
+    }
+
+.banner{
+    width:100%;
+    height:550px;
+    display:block;
+    }
+
+.banner > .banner_image{
+    width:100%;
+    height:550px;
+    display: block;
+
 }
