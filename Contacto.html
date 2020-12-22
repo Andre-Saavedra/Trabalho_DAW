@@ -1,25 +1,71 @@
 ﻿<!DOCTYPE html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="pt" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>André Saavedra - Trabalho Desenvolvimento de Aplicações WEB</title>
     <link rel="stylesheet" href="css/estilos.css" />
     <link rel="icon" href="png/logo_separador.png">
 </head>
+
 <body>
+    <div class="container_contacto">
+        <header>
+            <a href="index.html"><img src="png/logo.png" alt="Regressar à página inicial" width="200" height="75" /></a>
+            <nav>
+                <ul class="nav_site">
+                    <li><a href="Bio.html">Biografia</a></li>
+                    <li><a href="Portfolio.html">Portfólio</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <header>
-        <a href="index.html"><img src="png/logo.png" alt="Regressar à página inicial" width="200" height="75" /></a>
-        <nav>
-            <ul class="nav_site">
-                <li><a href="Bio.html">Biografia</a></li>
-                <li><a href="Portfolio.html">Portfólio</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+        <div class="conteudo_contacto">
 
-    <h1>Contacto</h1>
+            <div classe="titulo_contacto">
+            <h1>Contacte-me</h1>
+            </div>
+
+            <div class="contacto_mensagem">
+
+                <div class="contactos">
+
+                    <h3>Morada</h3>
+                    <p>Quinta de São Vicente<br />H 30 r/c esq.</p>
+
+                    <h3>Telefone</h3>
+                    <p>916681052</p>
+
+                    <h3>E-mail</h3>
+                    <p>andre.saavedra@hotmail.com</p>
+                </div>
+
+                <div class="formolario_mensagem">
+                    <div>
+                        <h3>Envie uma mensagem</h3>
+                    </div>
+
+                    <form id="contact-form" method="post" action="">
+
+                        <input name="nome" type="text" class="formolario" placeholder="Nome" required />
+                        <br />
+
+
+                        <input name="email" type="email" class="formolario" placeholder="E-mail" required />
+                        <br />
+
+                        <textarea name="mensagem" class="formolario" placeholder="Menssagem" rows="4" required ></textarea>
+                        <br />
+
+                        <input type="submit" class="formolario" value="Enviar Mensagem" />
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
 </body>
 </html>

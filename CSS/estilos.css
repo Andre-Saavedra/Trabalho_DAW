@@ -19,8 +19,6 @@ header{
     align-items:center;
     padding:30px 10% 30px 10%;
     width:100%;
-    position:fixed;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10% 30px 10%;
@@ -66,3 +64,31 @@ p{
     height:550px;
     display: block;
     }
+
+.conteudo_contacto {
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+}
+
+.contacto_mensagem {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #dedded;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.contactos{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    }
+
+.contactos h3, p{
+    padding-bottom:15px;
+}
+
