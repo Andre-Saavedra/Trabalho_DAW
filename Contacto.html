@@ -23,49 +23,48 @@
         </header>
 
         <div class="conteudo_contacto">
-
-            <div classe="titulo_contacto">
-            <h1>Contacte-me</h1>
-            </div>
-
-            <div class="contacto_mensagem">
-
-                <div class="contactos">
-
-                    <h3>Morada</h3>
-                    <p>Quinta de São Vicente<br />H 30 r/c esq.</p>
-
-                    <h3>Telefone</h3>
-                    <p>916681052</p>
-
-                    <h3>E-mail</h3>
-                    <p>andre.saavedra@hotmail.com</p>
+                <div>
+                    <h1 id="titulo_contacto"><!--CONTACTOS--></h1>
                 </div>
 
-                <div class="formolario_mensagem">
-                    <div>
-                        <h3>Envie uma mensagem</h3>
+                <div class="contacto_mensagem">
+
+                    <div class="contactos">
+
+                        <h3>Morada</h3>
+                        <p>Quinta de São Vicente<br />H 30 r/c esq.</p>
+
+                        <h3>Telefone</h3>
+                        <p>916681052</p>
+
+                        <h3>E-mail</h3>
+                        <p>andre.saavedra@hotmail.com</p>
                     </div>
 
-                    <form id="contact-form" method="post" action="">
+                    <div class="formolario_mensagem">
+                        <div>
+                            <h3>Envie uma mensagem</h3>
+                        </div>
 
-                        <input name="nome" type="text" class="formolario" placeholder="Nome" required />
-                        <br />
+                        <form id="formolario_contacto" method="post" action="">
+
+                            <input name="nome" type="text" class="formolario" placeholder="Nome" required />
+                            <br />
 
 
-                        <input name="email" type="email" class="formolario" placeholder="E-mail" required />
-                        <br />
+                            <input name="email" type="email" class="formolario" placeholder="E-mail" required />
+                            <br />
 
-                        <textarea name="mensagem" class="formolario" placeholder="Menssagem" rows="4" required ></textarea>
-                        <br />
+                            <textarea name="mensagem" class="formolario" placeholder="Mensagem" rows="4" required></textarea>
+                            <br />
 
-                        <input type="submit" class="formolario" value="Enviar Mensagem" />
-                    </form>
+                            <input type="submit" class="botao_formolario" value="Enviar Mensagem" />
+                        </form>
+                    </div>
                 </div>
             </div>
+
         </div>
-        
-    </div>
 
 </body>
 </html>
