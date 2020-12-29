@@ -172,12 +172,13 @@ input{
     align-items:center;
 }
 
-.titulo_portfolio h1 {
-    padding-top: 10px;
-    padding-bottom:10px;
-    margin-left:10%;
-    margin-right:10%;
-    background-color: #242240;
+    .titulo_portfolio h1 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color: #242240;
+        border-radius: 7px;
     }
 
 .conteudo_portfolio {
@@ -187,3 +188,27 @@ input{
     grid-row-gap: 20px;
 }
 
+.cartao {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+    width: 300px;
+    height: 400px;
+    background-color: #242240;
+    border-radius: 7px;
+    padding-top:10px;
+    padding-bottom:20px;
+    margin-left:10%;
+    margin-top:50px;
+}
+
+.cartao h3,a{
+    color:#ff910aff;
+    margin-bottom:10px;
+}
+
+.cartao p{
+    color:#dedded;
+    margin-top:25px;
+}
