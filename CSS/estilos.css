@@ -160,11 +160,11 @@ input{
 /*Portfolio*/
 
 .container_portfolio {
-    height: 85vh;
+    /*height: 85vh;*/
     background-image: url("../jpg/bgportfolio.jpg");
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     background-size: cover;
-    background-position: inherit;
+    background-attachment:fixed;
 }
 
 .titulo_portfolio {
@@ -185,10 +185,12 @@ input{
 }
 
 .conteudo_portfolio {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.conteudo_portfolio a:hover {
+    color: #ce7303;
 }
 
 .cartao {
@@ -196,19 +198,25 @@ input{
     flex-direction:column;
     align-items:center;
     justify-content:space-between;
-    width: 300px;
-    height: 400px;
+    width: 350px;
+    height: 450px;
     background-color: #242240;
     border-radius: 7px;
     padding-top:10px;
     padding-bottom:20px;
-    margin-left:10%;
     margin-top:50px;
 }
 
 .cartao h3,a{
     color:#ff910aff;
     margin-bottom:10px;
+   
+}
+
+.cartao p{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align:center;
 }
 
 .cartao p{
@@ -216,6 +224,15 @@ input{
     margin-top:25px;
 }
 
-.conteudo_portfolio a:hover{
-    color: #ce7303;
+.linha_1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.linha_2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom:50px;
 }
