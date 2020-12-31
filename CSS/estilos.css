@@ -160,10 +160,8 @@ input{
 /*Portfolio*/
 
 .container_portfolio {
-    /*height: 85vh;*/
     background-image: url("../jpg/bgportfolio.jpg");
-    /*background-repeat: no-repeat;*/
-    background-size: cover;
+    background-size:cover;
     background-attachment:fixed;
 }
 
@@ -235,4 +233,146 @@ input{
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding-bottom:50px;
+}
+
+/*cv*/
+
+.container_cv {
+    min-height:85vh;
+    background-image: url("../jpg/bgcv.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.titulo_cv {
+    text-align: center;
+    padding-top: 50px;
+    color: #ff910aff;
+    font-size: 32px;
+    align-items: center;
+}
+
+.titulo_cv h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #242240;
+    border-radius: 7px;
+}
+/*
+.grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    background-color: #242240;
+    border-radius: 7px;
+}*/
+
+.conteudo_cv {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    background-color: #242240;
+    border-radius: 7px;
+}
+
+.foto_tabelas1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tabelas_1 {
+    display: flex; /*
+    justify-content: space-around;*/
+    justify-content: flex-end;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 35px;
+    flex-wrap: wrap;
+    margin-right:20px;
+    padding-left:10px;
+    padding-right:35px;
+}
+
+.tabelas_1 .titulo_tabela{
+    color:#ff910aff;
+    font-size:25px;
+    padding:5px;
+}
+.tabelas_1 th {
+    color: #ff910aff;
+    font-size: 30px;
+    padding:5px;
+}
+
+.tabelas_1 .descricao_tabela {
+    color:#dedded;
+    font-size:20px;
+    padding:10px;
+}
+
+.tabelas_2 {
+    display: flex; /*
+    justify-content: space-around;*/
+    justify-content: flex-end;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    flex-wrap: wrap;
+    margin-right:20px;
+    padding-left:10px;
+    padding-right:35px;
+    padding-bottom:25px;
+}
+
+.tabelas_2 .titulo_tabela {
+    color: #ff910aff;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.tabelas_2 th {
+    color: #ff910aff;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.tabelas_2 .descricao_tabela {
+    color: #dedded;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.foto {
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-left: 4%;
+    margin-top: 4%;
+    border-radius: 7px;
+}
+
+.dados_pessoais{
+    margin-right:20px;
+}
+
+.competencias_pessoais{
+    margin-right:135px;
+    margin-bottom:35px;
+}
+
+.competencias_digitais{
+    padding-right:75px; 
 }
