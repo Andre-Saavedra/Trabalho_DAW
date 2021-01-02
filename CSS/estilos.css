@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
+
 
 /*Barra de navegação*/
 
 header li, a {
-    font-family: Verdana, Tahoma, sans-serif;
     font-weight: 600;
     font-size: 20px;
     text-decoration: none;
@@ -19,8 +22,12 @@ header {
     align-items: center;
     padding: 30px 10% 30px 10%;
     width: 100%;
-    height: 15vh;
+    height: 5vh;
     background-color: #242240;
+}
+
+.header_home{
+    background-color:transparent;
 }
 
 .nav_site {
@@ -39,35 +46,30 @@ header {
 .nav_site li a:hover{
     color:#ff910aff;
 }
-
-.banner{
-    width:100%;
-    height:550px;
-    display:block;
-    }
-
-.banner > .banner_image{
-    width:100%;
-    height:550px;
-    display: block;
-    }
+ .logo{
+     padding-top:20px;
+ }
 
 /*Contacto*/
 
+.container_contacto {
+    height:100%;
+    background-image: url("../jpg/bgcontactos.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .conteudo_contacto {
-    height:85vh;
+    min-height: 95vh;
     display: flex;
     flex-direction: column;
-    background-image: url("../jpg/bgcontactos.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
 }
 
 .contacto_mensagem {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top:10%;
+    margin-top: 10%;
     color: #dedded;
     margin-left: 15%;
     margin-right: 15%;
@@ -119,6 +121,7 @@ header {
     margin-bottom: 40px;
     color: #ff910aff;
     font-size:32px;
+    padding-top:15px;
 }
 
 .formolario {
@@ -150,7 +153,7 @@ input{
     font-weight: bold;
     height: 50px;
     margin-top: 20px;
-    margin-bottom:15px;
+    margin-bottom:25px;
 }
 
 .botao_formolario:hover{
@@ -238,7 +241,7 @@ input{
 /*cv*/
 
 .container_cv {
-    min-height:85vh;
+    min-height:100vh;
     background-image: url("../jpg/bgcv.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -261,16 +264,6 @@ input{
     background-color: #242240;
     border-radius: 7px;
 }
-/*
-.grid {
-    display: grid;
-    grid-template-columns: 30% 70%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 50px;
-    background-color: #242240;
-    border-radius: 7px;
-}*/
 
 .conteudo_cv {
     margin-left: 10%;
@@ -287,8 +280,7 @@ input{
 }
 
 .tabelas_1 {
-    display: flex; /*
-    justify-content: space-around;*/
+    display: flex; 
     justify-content: flex-end;
     grid-column-start: 2;
     grid-column-end: 3;
@@ -319,8 +311,7 @@ input{
 }
 
 .tabelas_2 {
-    display: flex; /*
-    justify-content: space-around;*/
+    display: flex; 
     justify-content: flex-end;
     grid-column-start: 2;
     grid-column-end: 3;
@@ -375,4 +366,42 @@ input{
 
 .competencias_digitais{
     padding-right:75px; 
+}
+
+/*home*/
+
+.container_home {
+    height:100vh;
+    background-image: url("../jpg/bghome.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom:100px;
+}
+
+.intro {
+    background: #242240;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro_texto {
+    text-align:center;
+    color: #ff910aff;
+    font-size: 45px;
+}
+
+.esconder {
+    background: #242240;
+    overflow: hidden;
+}
+
+.esconder span {
+    transform: translateY(100%);
+    display: inline-block;
 }
