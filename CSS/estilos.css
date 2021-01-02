@@ -106,7 +106,6 @@ header {
 }
 
 .formolario_mensagem {
-    margin-bottom: 50px;
     background-color: #242240;
     height: 450px;
     flex-basis: 600px;
@@ -131,7 +130,7 @@ header {
     border-bottom: 1px solid #dedded;
     color: #000;
     font-size: 18px;
-    margin-bottom: 16px;
+    margin-bottom: 7px;
 }
 
 #formolario_contacto {
