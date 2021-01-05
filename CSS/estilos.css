@@ -194,19 +194,19 @@ input{
 }
 
 .cartao {
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     width: 350px;
     height: 450px;
     background-color: #242240;
     border-radius: 7px;
-    padding-top:10px;
-    padding-bottom:20px;
-    margin-top:50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 50px;
 }
-
+ 
 .cartao h3,a{
     color:#ff910aff;
     margin-bottom:10px;
@@ -228,6 +228,13 @@ input{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+@media (max-width:900px) {
+    .linha1 {
+        display:block;
+        float:right;
+    }
 }
 
 .linha_2 {
@@ -281,10 +288,6 @@ input{
 .tabelas_1 {
     display: flex; 
     justify-content: flex-end;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
     margin-top: 35px;
     flex-wrap: wrap;
     margin-right:20px;
@@ -312,10 +315,6 @@ input{
 .tabelas_2 {
     display: flex; 
     justify-content: flex-end;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
     flex-wrap: wrap;
     margin-right:20px;
     padding-left:10px;
@@ -345,10 +344,6 @@ input{
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
     margin-left: 4%;
     margin-top: 4%;
     border-radius: 7px;
@@ -365,6 +360,64 @@ input{
 
 .competencias_digitais{
     padding-right:75px; 
+}
+
+@media (max-width:900px) {
+    .foto_tabelas1 {
+        justify-content: center;
+    }
+
+    .dados_pessoais, .dados_pessoais td, .dados_pessoais tr, .dados_pessoais th {
+        display: block;
+        width: 100%;
+        text-align: center;
+        float: left;
+        margin:0px 0px 10px 0px;
+        padding:0;
+    }
+
+    .dados_pessoais th{
+        text-decoration:underline;
+    }
+
+    .formacao_experiencia, .formacao_experiencia td, .formacao_experiencia tr, .formacao_experiencia th {
+        display: block;
+        width: 100%;
+        text-align: center;
+        float: left;
+        margin: 0px 0px 10px 0px;
+        padding:0;
+    }
+
+    .formacao_experiencia th {
+        text-decoration: underline;
+    }
+
+    .competencias_pessoais, .competencias_pessoais td, .competencias_pessoais tr, .competencias_pessoais th {
+        display: block;
+        width: 100%;
+        text-align: center;
+        float: left;
+        margin: 0px 0px 10px 0px;
+        padding:0;
+    }
+
+    .competencias_pessoais th {
+        text-decoration: underline;
+    }
+
+    .competencias_digitais, .competencias_digitais td, .competencias_digitais tr, .competencias_digitais th {
+        display: block;
+        width: 100%;
+        text-align: center;
+        float: left;
+        margin: 0px 0px 10px 0px;
+        padding:0;
+    }
+
+    .competencias_digitais th {
+        text-decoration: underline;
+    }
 }
 
 /*home*/
@@ -404,3 +457,9 @@ input{
     transform: translateY(100%);
     display: inline-block;
 }
+
+/*@media (max-width:900px) {
+    .foto_tabelas1{
+        justify-content:center;
+    }
+}*/
