@@ -1,0 +1,174 @@
+.container_cv {
+    min-height: 100vh;
+    background-image: url("../jpg/bgcv.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.titulo_cv {
+    text-align: center;
+    padding-top: 50px;
+    color: #ff910aff;
+    font-size: 32px;
+    align-items: center;
+}
+
+.titulo_cv h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #242240;
+    border-radius: 7px;
+}
+
+.conteudo_cv {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    background-color: #242240;
+    border-radius: 7px;
+}
+
+.foto_tabelas1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tabelas_1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 35px;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 35px;
+}
+
+.tabelas_1 .titulo_tabela {
+    color: #ff910aff;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.tabelas_1 th {
+    color: #ff910aff;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.tabelas_1 .descricao_tabela {
+    color: #dedded;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.tabelas_2 {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+}
+
+.tabelas_2 .titulo_tabela {
+    color: #ff910aff;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.tabelas_2 th {
+    color: #ff910aff;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.tabelas_2 .descricao_tabela {
+    color: #dedded;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 4%;
+    margin-top: 4%;
+    border-radius: 7px;
+}
+
+.dados_pessoais {
+    margin-right: 20px;
+}
+
+.competencias_pessoais {
+    margin-right: 135px;
+    margin-bottom: 35px;
+}
+
+.competencias_digitais {
+    padding-right: 75px;
+}
+
+@media (max-width:900px) {
+    .foto_tabelas1 {
+        justify-content: center;
+    }
+
+    .dados_pessoais, .dados_pessoais td, .dados_pessoais tr, .dados_pessoais th {
+        display: block;
+        width: 100%;
+        text-align: center;
+        float: left;
+        margin: 0px 0px 10px 0px;
+        padding: 0;
+    }
+
+    .dados_pessoais th {
+        text-decoration: underline;
+    }
+
+    .formacao_experiencia, .formacao_experiencia td, .formacao_experiencia tr, .formacao_experiencia th {
+        display: block;
+        width: 100%;
+        text-align: center;
+        float: left;
+        margin: 0px 0px 10px 0px;
+        padding: 0;
+    }
+
+    .formacao_experiencia th {
+        text-decoration: underline;
+    }
+
+    .competencias_pessoais, .competencias_pessoais td, .competencias_pessoais tr, .competencias_pessoais th {
+        display: block;
+        width: 100%;
+        text-align: center;
+        float: left;
+        margin: 0px 0px 10px 0px;
+        padding: 0;
+    }
+
+    .competencias_pessoais th {
+        text-decoration: underline;
+    }
+
+    .competencias_digitais, .competencias_digitais td, .competencias_digitais tr, .competencias_digitais th {
+        display: block;
+        width: 100%;
+        text-align: center;
+        float: left;
+        margin: 0px 0px 10px 0px;
+        padding: 0;
+    }
+
+    .competencias_digitais th {
+        text-decoration: underline;
+    }
+}

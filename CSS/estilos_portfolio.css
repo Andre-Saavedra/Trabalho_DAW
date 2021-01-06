@@ -1,0 +1,79 @@
+.container_portfolio {
+    background-image: url("../jpg/bgportfolio.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titulo_portfolio {
+    text-align: center;
+    padding-top: 50px;
+    color: #ff910aff;
+    font-size: 32px;
+    align-items: center;
+}
+.titulo_portfolio h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #242240;
+    border-radius: 7px;
+}
+
+.conteudo_portfolio {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.conteudo_portfolio a:hover {
+    color: #ce7303;
+}
+
+.cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    height: 450px;
+    background-color: #242240;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+.cartao h3, a {
+    color: #ff910aff;
+    margin-bottom: 10px;
+}
+
+.cartao p {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.cartao p {
+    color: #dedded;
+    margin-top: 25px;
+}
+
+.linha_1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.linha_2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+@media (max-width:900px){
+    .linha_1 {
+        justify-content:space-evenly;
+    }
+}

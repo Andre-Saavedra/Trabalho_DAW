@@ -1,0 +1,35 @@
+.container_home {
+    height: 100vh;
+    background-image: url("../jpg/bghome.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+}
+
+.intro {
+    background: #242240;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro_texto {
+    text-align: center;
+    color: #ff910aff;
+    font-size: 45px;
+}
+
+.esconder {
+    background: #242240;
+    overflow: hidden;
+}
+
+.esconder span {
+    transform: translateY(100%);
+    display: inline-block;
+}
