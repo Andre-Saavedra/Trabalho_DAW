@@ -26,9 +26,6 @@ header {
     background-color: #242240;
 }
 
-.header_home{
-    background-color:transparent;
-}
 
 .nav_site {
     list-style: none;
@@ -46,6 +43,47 @@ header {
 .nav_site li a:hover{
     color:#ff910aff;
 }
- .logo{
-     padding-top:10px;
- }
+.logo{
+    padding-top:10px;
+}
+
+#menu{
+    display:none;
+}
+
+#dropdown {
+    /*display: flex;*/
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5vh;
+    background-color: #242240;
+    display:none;
+}
+
+#dropdown li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left:20px;
+       
+}
+
+#dropdown li a {
+    color: #dedded;
+}
+
+#dropdown li a:hover{
+    color:#ff910aff;
+}
+
+@media (max-width:900px){
+    nav ul{
+        display:none;
+    }
+    #menu{
+        display:flex;
+        color:#ff910aff;
+    }
+    #menu:hover{
+        opacity:0.75;
+    }
+}
