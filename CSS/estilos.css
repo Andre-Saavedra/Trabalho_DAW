@@ -51,6 +51,11 @@ header {
     display:none;
 }
 
+#cancelar {
+    display: none;
+    color:#ff910aff;
+}
+
 #dropdown {
     /*display: flex;*/
     justify-content: space-evenly;
